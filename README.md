@@ -4,8 +4,8 @@ Site statique : de débutant à intermédiaire sur Claude Code, jusqu'à la cré
 
 ## Fichiers
 - `index.html` — accueil, méthode, fil rouge, programme des 10 sessions
-- `session-1.html` — leçon 1
-- `lecon.html` — leçons 2 à 10 (`lecon.html?s=2` … `lecon.html?s=10`)
+- `lecon.html` — les 10 leçons (`lecon.html?s=1` … `lecon.html?s=10`), à suivre dans l'ordre, un badge par leçon
+- `session-1.html` — redirection vers `lecon.html?s=1` (anciens liens)
 - `.nojekyll` — désactive le traitement Jekyll de GitHub Pages
 
 Chaque page est autonome (styles, scripts et contenus intégrés). La progression et les scores sont enregistrés dans le navigateur (localStorage).
